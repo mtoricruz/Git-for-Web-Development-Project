@@ -1,4 +1,4 @@
-https://codepen.io/toricruzm/pen/ExjoBYM?editors=1100
+Today's Completed Project: https://codepen.io/toricruzm/pen/ExjoBYM?editors=1100
     1. What is Semantic HTML? 
     HTML that gives meaning to our content such as nav, div, h1-h6, etc.
 
@@ -74,11 +74,12 @@ https://codepen.io/toricruzm/pen/ExjoBYM?editors=1100
     The ability to select elements that are "direct children" of other elements. 
     This would be useful if you want to style a specific code element that's nested inside other elements.
 
-HELP    23. How do you select all links within a div with the class of sidebar?
-    .sidebar:a *{
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a{
 
     }
-
+    .href
+    input[type=text]
     24. What is a pseudo selector?
     A pseudo selector helps select a type of element that is in a specific state. This can be helpful because it cuts the amount of code
     that needs to be written to target elements that we'd like to call on.
@@ -94,11 +95,9 @@ HELP    23. How do you select all links within a div with the class of sidebar?
     lowercase = text-transform: lowercase;
     Capitalize = text-transform: capitalize;
 
-HELP    28. How do I add a 1px border around my div that is dotted and black?
+   28. How do I add a 1px border around my div that is dotted and black?
     div{
-        border-width:1px;
-        border-style:dotted;
-        border-color:black;
+        border: 1px dotted black;
     }
 
     29. How do I select everything on the page? 
@@ -119,7 +118,7 @@ HELP    28. How do I add a 1px border around my div that is dotted and black?
     rm <filename> 
     I have to be careful with this because there is no warning and it's irreversible.
 
-HELP    34. Why should I use version control?
+    34. Why should I use version control?
     Version control allows you to record changes over time and will help when you need to recall specific versions later.
 
     35. How often should I commit to github?
